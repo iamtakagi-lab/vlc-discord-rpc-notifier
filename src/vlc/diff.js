@@ -36,7 +36,10 @@ module.exports = (callback) => {
         const { meta } = status.information.category;
         if (meta.now_playing !== last.now_playing) {
           // check stream
-          webhook.send(meta.title || meta.filename + "を再生中")
+          if(config.webhook.enabled) {
+            const message = config.messageFormat.replace('%file_name%', meta.title || meta.filename)
+            webhook.send(message)
+          }
           log('Stream updated');
           callback(status, true);
         } else if (meta.filename !== last.filename) {

@@ -68,6 +68,17 @@ Enable or disable detached mode.
 detached: false, // Launch VLC seperately
 ```
 
+## discord webhook
+If you want to send information about when playback starts in Discord Webhook, use the following.
+
+```
+webhook : {
+    enabled: false,
+    url: "https://discord.com/api/webhooks/xxx/xxx",
+    messageFormat: "Playing: %file_name%",
+}
+```
+
 ## vlc
 This section relates to how VLC is configured. In attached mode, VLC is launched with the parameters set here. In detached mode, these values must correspond to VLC's configuration.
 ### password

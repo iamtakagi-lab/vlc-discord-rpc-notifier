@@ -24,7 +24,9 @@ module.exports = {
   },
 
   webhook : {
-    url: "https://discord.com/api/webhooks/xxx/xxx"
+    enabled: false,
+    url: "https://discord.com/api/webhooks/xxx/xxx",
+    messageFormat: "Playing: %file_name%",
   },
 
   vlc: {
