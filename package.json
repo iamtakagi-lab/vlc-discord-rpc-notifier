@@ -1,0 +1,20 @@
+{
+  "name": "vlc-discord-rpc-notifier",
+  "version": "0.0.1",
+  "description": "Discord rich presence with notifier for VLC media player",
+  "main": "index.js",
+  "dependencies": {
+    "discord-rpc": "^3.1.1",
+    "discord.js": "^12.5.3",
+    "vlc.js": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node ./src/app.js",
+    "run": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtakagi/vlc-discord-rpc-notifier.git"
+  },
+  "license": "MIT"
+}
