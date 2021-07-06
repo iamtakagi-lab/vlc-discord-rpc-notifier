@@ -37,7 +37,7 @@ module.exports = (callback) => {
         if (meta.now_playing !== last.now_playing) {
           // check stream
           if(config.webhook.enabled) {
-            const message = config.messageFormat.replace('%file_name%', meta.title || meta.filename)
+            const message = config.webhook.messageFormat.replace('%file_name%', meta.title || meta.filename)
             webhook.send(message)
           }
           log('Stream updated');
