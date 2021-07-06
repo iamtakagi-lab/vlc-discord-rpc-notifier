@@ -27,7 +27,7 @@ Detached mode allows you to use VLC as normal.
 To enable detached mode permanently, you can open config/config.js in a text editor and change `detached: false` to `detached: true`.
 
 ### Configuration
-[config/config.js](./config/config.js) may need to be modified if:
+Please rename from [config/config.sample.js](./config/config.sample.js) to config/config.js may need to be modified if:
  - Your system uses an abnormal VLC install
  - You have manually configured your VLC web interface
 
