@@ -10,7 +10,7 @@ Discord rich presence with notifier for VLC media player Windows/MacOS/Linux
 - [Discord desktop client](https://discordapp.com/)
 
 ## Setup
- 1. [Download the latest release for your platform](https://github.com/Pigpog/vlc-discord-rpc/releases)
+ 1. [Download the latest release for your platform](https://github.com/iamtakagi/vlc-discord-rpc-notifier/releases)
   - If you download a bundle release, you will not need to install Node.JS/NPM
  2. Unzip the file
  3. Launch the start file
@@ -37,6 +37,11 @@ Please see [CONFIGURATION.md](./CONFIGURATION.md) to learn more about manual con
 ### Limitations
  - When running multiple concurrent instances, only the first-opened instance of VLC will have a rich presence
  - The rich presence cannot display album art
+
+### Development
+```console
+yarn && yarn start
+```
 
 ## LICENSE
 iamtakagi/vlc-discord-rpc-notifier is provided under the MIT license.
