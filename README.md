@@ -2,6 +2,7 @@
 Discord rich presence with notifier for VLC media player Windows/MacOS/Linux
 
 ![Example](./example.png)
+![Example_2](./example_2.png)
 
 ## Requirements
 - [Node.JS and NPM](https://nodejs.org/en/) (unless you're using a bundle release)
